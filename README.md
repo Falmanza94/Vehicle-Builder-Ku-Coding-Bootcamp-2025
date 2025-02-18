@@ -11,16 +11,19 @@ This project is a typeScript command-line application that generates a build for
 
 
 ## Installation
-1. First step: clone the repository:
+1. Clone the repository:
 ```bash
     git clone https://github.com/Falmanza94/ReadMe-Generator-Ku-Coding-Bootcamp-2025.git
-   Second step: install the inquirer:
+```
+2. Install the inquirer:
+```bash
     npm install
-
-   Third step: run the CLi:
+```
+3. Run the CLi:
+```bash
     npm start
 
-
+```
 ## License
 This project has no active license.
 ## Contributing
