@@ -1,13 +1,14 @@
 # Vehicle Builder
 
 ## Description
-This project is a typeScript command-line application that generates a build for a car, truck or motorbike. The command prompt will ask the user to make a choice between creating a new or pre-exisiting vehicle. Once created, the user can cycle through various manuevering options, towing capabiliy, and even the chance to do a wheelie. Finally, the user can select 'exit' to end the command-line application.
+This project is a typeScript command-line application that generates a build for a car, truck or motorbike. The command prompt will ask the user to make a choice between creating a new or pre-exisiting vehicle. Once created, the user can cycle through various actions for the vehicle. Finally, the user can select 'exit' to end the command-line application.
 
 ## Table of Contents
-- [Installation]
-- [License]
-- [Contributing]
-- [Questions]
+- Installation
+- CLi Prompts
+- License
+- Contributing
+- Questions
 
 
 ## Installation
@@ -24,6 +25,9 @@ This project is a typeScript command-line application that generates a build for
     npm start
 
 ```
+
+## CLi Prompts
+Print Details: Prompts will ask user to create a new vehicle or existing: Selecting an existing vehicle will provide a premade car, truck and motorbike -- once selected the user can perform an action on the vehicle. IF user selects to create a new vehicle: User is prompted to input: Color, Make, Model, Year, Weight, Top speed, (if truck - towing capacity) and (if motorbike - front/back wheel diameter and brand). ACTIONS: User is prompted to Start Vehicle, Accelerate 5 MPH, Decelerate 5 MPH, Stop Vehicle, Turn right, Turn Left, Reverse, Tow a vehicle, Perform a wheelie, Exit -- which will end the CLi prompts.
 ## License
 This project has no active license.
 ## Contributing
